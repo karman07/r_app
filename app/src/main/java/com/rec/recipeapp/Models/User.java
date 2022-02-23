@@ -1,4 +1,4 @@
-package com.rec.recipeapp;
+package com.rec.recipeapp.Models;
 
 public class User {
     private String name, email, pass;

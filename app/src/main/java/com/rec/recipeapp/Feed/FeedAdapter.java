@@ -1,7 +1,6 @@
 package com.rec.recipeapp.Feed;
 
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.rec.recipeapp.Models.Recipe;
 import com.rec.recipeapp.R;
-import com.rec.recipeapp.SingleDishFragment;
+import com.rec.recipeapp.SingleDish.SingleDishFragment;
 import com.rec.recipeapp.utils.Utils;
 import com.squareup.picasso.Picasso;
 

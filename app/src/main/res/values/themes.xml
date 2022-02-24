@@ -21,7 +21,8 @@
         <item name="cornerSize">50%</item>
     </style>
     <style name="ShapeAppearanceOverlay.App.DishFeedImage" parent="">
-        <item name="cornerSize">10%</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
     </style>
     <style name="ShapeAppearanceOverlay.App.SingleDishImage" parent="">
         <item name="cornerSizeBottomLeft">10%</item>

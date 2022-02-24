@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/drawable-v24/ic_outine_favorite.xml" value="0.282" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/drawable-v24/title_over_image.xml" value="0.25" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/font/bangers.xml" value="0.375" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/activity_dashboard.xml" value="0.34479166666666666" />
@@ -13,10 +14,14 @@
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/fragment_feed_screen.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/fragment_profile.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/fragment_publish_recipe.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/fragment_search__screen.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/fragment_show_recipe.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/fragment_single_category_list.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/item_category_favorite.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/item_dish_feed.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/item_ingredients.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/item_search_feed.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/layout/item_step.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/menu/menu.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/bk973/Desktop/r_app/app/src/main/res/menu/menu_filter.xml" value="0.34479166666666666" />
       </map>

@@ -24,6 +24,7 @@ app:layout_constraintBottom_toBottomOf="parent"        />
         android:text="30 Grams"
         android:layout_marginEnd="20dp"
         android:textColor="@color/black"
+
         android:fontFamily="@font/mons_semibold"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

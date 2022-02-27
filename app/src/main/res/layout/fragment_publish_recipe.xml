@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/transparent_back"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -30,10 +31,8 @@
         app:layout_constraintStart_toStartOf="@id/txt_upload_image"
         app:layout_constraintEnd_toEndOf="@id/txt_upload_image"
         app:srcCompat="@drawable/ic_baseline_add_a_photo_24"
-        app:strokeColor="@color/app_theme_color"
         android:scaleType="fitXY"
         android:layout_marginTop="10dp"
-        app:strokeWidth="2dp"
         />
     <TextView
         android:id="@+id/txt_upload_name"

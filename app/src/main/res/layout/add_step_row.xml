@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step"
+        android:fontFamily="@font/mons_semibold"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+         />
+    <EditText
+        android:id="@+id/edt_add_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="@font/mons_regular"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="10dp"
+        android:hint="Add Step"
+        />
+    <ImageButton
+        android:id="@+id/btn_delete_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:background="#00FFFFFF"
+        android:layout_marginStart="10dp"
+        />
+
+</LinearLayout>

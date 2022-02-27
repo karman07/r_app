@@ -7,8 +7,34 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Cuisine">
+        <item>Indian</item>
+        <item>Chinese</item>
+        <item>Nigerian</item>
+        <item>Italian</item>
+        <item>Swedish</item>
+        <item>Continental</item>
+        <item>Thai</item>
+        <item>Japanese</item>
+        <item>Mexican</item>
+        <item>American</item>
+        <item>French</item>
+    </string-array>
+
+
+    <string-array name="Veg_NonVeg">
+        <item>Veg</item>
+        <item>Non Veg</item>
+    </string-array>
+
+
+    <string-array name="Best_For">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Snacks</item>
+        <item>Dinner</item>
+        <item>Drinks</item>
+        <item>Desert</item>
+    </string-array>
+
 </resources>

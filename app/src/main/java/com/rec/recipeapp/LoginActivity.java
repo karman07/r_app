@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn = findViewById(R.id.loginbtn);
         signupBtn = findViewById(R.id.createBtn);
 
-        if (auth.getCurrentUser() != null) {
+        if (auth.getCurrentUser() != null && auth.getCurrentUser().isEmailVerified()) {
             startActivity(new Intent(getApplicationContext(), DashboardActivity.class));
             finish();
         }
@@ -67,19 +67,32 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
 
                 }
+
                 auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         dialog.dismiss();
                         if (task.isSuccessful()) {
-                            startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
+                            if (auth.getCurrentUser().isEmailVerified()) {
+                                startActivity(new Intent(LoginActivity.this, DashboardActivity.class));
+                            } else {
+                                auth.getCurrentUser().sendEmailVerification().addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        Toast.makeText(LoginActivity.this, "Email Not Verified!! Verification Email sent again. Pls Verify and Login again.", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
                         } else {
                             Toast.makeText(LoginActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
+
             }
         });
+
+
 
         //This is for forgot password
         forgot_password.setOnClickListener(new View.OnClickListener() {

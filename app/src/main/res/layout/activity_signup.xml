@@ -44,6 +44,20 @@
                 android:textColor="@android:color/black"
                 android:textSize="30sp" />
 
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/upload_profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:theme="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                app:strokeColor="#D8F3B9EB"
+                app:strokeWidth="4dp"
+                android:padding="2dp"
+                android:src="@drawable/add_user_profile_image"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"
+                />
+
             <EditText
                 android:id="@+id/namebox"
                 android:layout_width="match_parent"
@@ -82,25 +96,24 @@
                 android:inputType="textPassword"
                 android:padding="10dp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/createBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/button_height"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/margin_top"
-                android:background="@drawable/button_style_2"
-                android:paddingStart="@dimen/padding"
-                android:paddingEnd="@dimen/padding"
+                android:layout_marginTop="10dp"
+                style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
                 android:text="Create an account"
+                android:backgroundTint="@color/app_theme_color"
                 android:textColor="@android:color/white" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/loginbtn"
-                android:onClick="back"
+                style="@style/ThemeOverlay.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/button_height"
-                android:layout_marginTop="@dimen/layout_margin_top"
-                android:background="@drawable/button_style"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/app_theme_color"
                 android:text="Already have an account"
                 android:textColor="@android:color/white" />
 

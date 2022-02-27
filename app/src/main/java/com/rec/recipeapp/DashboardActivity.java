@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+import com.rec.recipeapp.Category.CategoryFragment;
 import com.rec.recipeapp.Feed.FeedFragment;
 import com.rec.recipeapp.Search.SearchFragment;
 
@@ -56,10 +57,11 @@ public class DashboardActivity extends AppCompatActivity implements NavigationBa
                 break;
 
             case R.id.add:
-
+                fragment = new UploadRecipeFragment();
                 break;
 
             case R.id.menu:
+                fragment = new CategoryFragment();
 
                 break;
 

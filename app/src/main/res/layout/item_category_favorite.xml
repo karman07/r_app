@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
     android:layout_height="wrap_content"
     android:layout_width="wrap_content"
    >
@@ -17,6 +18,7 @@
         android:id="@+id/category_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:scaleType="fitXY"
         app:shapeAppearance="@style/ShapeAppearanceOverlay.App.DishFeedImage"
         android:src="@color/black"
         />
